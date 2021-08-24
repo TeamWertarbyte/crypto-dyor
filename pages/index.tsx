@@ -1,12 +1,12 @@
 import Head from "next/head";
+import * as React from "react";
 
-export default () => (
+const home = (): React.ReactElement => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -201,3 +201,5 @@ export default () => (
     `}</style>
   </div>
 );
+
+export default home;
